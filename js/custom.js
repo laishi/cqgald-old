@@ -1,5 +1,4 @@
 
-
 /*EXPAND MENU INIT*/
 $(document).ready(function() {
 
@@ -26,5 +25,22 @@ $(document).ready(function() {
             ease: Back.easeOut
         })
     }
+
+
+
+
+    $(".card").on('mouseenter', function(){
+        $(this).toggleClass("is-expandend");
+        // $("body").toggleClass("is-expandend");
+    })
+
+    $(".card").on('mouseleave', function(){
+        $(this).toggleClass("is-expandend");
+        // $("body").toggleClass("is-expandend");
+    })
+
+
+
+
 
 });

@@ -1,17 +1,34 @@
-
+* {
+    font-family: "Microsoft YaHei";
+    /*font-weight: normal;*/
+}
 /* Style for our header texts
 * --------------------------------------- */
+
+h3{
+	color: #CDCDCD;
+}
+p{
+	color: #CDCDCD;
+	font-size: 16px;
+}
+
 h1{
 	font-size: 5em;
 	font-family: arial,helvetica;
 	color: #fff;
 	margin:0;
 }
-#fullpage p{
+
+
+.GridBox p{
 	color: #CDCDCD;
-	font-size: 16px;
-	text-indent: 2em; 
+	font-size: 18px;
+	text-indent: 2em;
+	line-height: 1.5em;
+	text-align: justify;
 }
+
 
 /* Centered texts in each section
 * --------------------------------------- */
@@ -35,7 +52,10 @@ h1{
 	color: #fff;
 }
 
-
+.GridBox{
+	width: 100%;
+	margin-top: 50px;
+}
 
 
 .navMenu{
@@ -61,21 +81,18 @@ h1{
 }
 
 .grids {
-	/*margin-top:80px;*/
+	margin-top:60px;
 }
 
 .grids .gridItem{
 	min-height: 80vh;
 	padding-top: 100px;
-	background-color: #383838;
+	/*background-color: #383838;*/
 	padding: 2em;
 	/*text-align: justify;*/
 }
 
-.grids .gridItem p{
 
-	text-align: justify;
-}
 
 
 .mdl-cell {
@@ -86,4 +103,24 @@ h1{
 
 .myhead{
 	opacity: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 840px)
+.mdl-grid {
+    padding: 0px;
 }
