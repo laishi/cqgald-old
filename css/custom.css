@@ -88,12 +88,23 @@ h1{
 	min-height: 80vh;
 	padding-top: 100px;
 	/*background-color: #383838;*/
-	padding: 2em;
+	padding: 0 2em;
 	/*text-align: justify;*/
+}
+
+.gridShow{
+	/*position: relative;*/
+	width: 100%;
+	background-color: rgba(55,42,200,0.6);
+    margin: 0 auto;
+    text-align: center;
 }
 
 
 
+.cadeItem{
+
+}
 
 .mdl-cell {
 	margin-top: 0;
