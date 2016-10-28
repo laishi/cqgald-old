@@ -90,6 +90,14 @@ h1{
 	/*background-color: #383838;*/
 	padding: 0 2em;
 	/*text-align: justify;*/
+	cursor: pointer;
+}
+
+.gridItems .gridItem{
+	cursor: pointer;
+	border-radius: 5px;
+	background-repeat: no-repeat;
+	background-size: 50%;
 }
 
 .gridShow{
